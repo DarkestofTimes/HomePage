@@ -7,7 +7,7 @@ module.exports = {
   devtool: "source-map",
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Home Page",
+      title: "Home page",
       template: "src/index.html",
       scriptLoading: "module",
     }),
@@ -20,6 +20,10 @@ module.exports = {
 
   module: {
     rules: [
+      {
+        test: /\.(html)$/,
+        use: ["html-loader"],
+      },
       {
         test: /\.css$/i,
 
@@ -34,6 +38,9 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif|avif)$/i,
 
         type: "asset/resource",
+        generator: {
+          filename: "assets/img/[name][ext]",
+        },
       },
     ],
   },

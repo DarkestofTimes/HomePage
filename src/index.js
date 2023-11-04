@@ -1,8 +1,4 @@
 import "../src/styles.css";
-import img1 from "../img/battleship400.png";
-import img2 from "../img/battleship800.png";
-import img3 from "../img/Screenshot400w.png";
-import img4 from "../img/Screenshot800w.png";
 
 const elementIsIn = (element) => {
   const rect = element.getBoundingClientRect();
