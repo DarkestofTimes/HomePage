@@ -96,12 +96,12 @@
             <img
               src="<%= require('../src/img/battleship800.png') %>"
               srcset="
-              <%= require('../src/img/battleship400.png') %>,
-                <%= require('../src/img/battleship800.png') %>
+              <%= require('../src/img/battleship400.png') %> 400w,
+                <%= require('../src/img/battleship800.png') %> 800w
               "
               alt="project picture"
               class="projectImg"
-              sizes="(max-width: 600px)
+              sizes="(max-width: 400px)
             400px, 800px" />
             <div class="projectDescWrapper">
               <h3>Battleship</h3>
@@ -126,14 +126,14 @@
           </div>
           <div class="project">
             <img
-              src="../src/img/Screenshot800w.png"
+              src="<%= require('../src/img/Screenshot800w.png') %>"
               srcset="
-                ../src/img/Screenshot400w.png 400w,
-                ../src/img/Screenshot800w.png 800w
+              <%= require('../src/img/Screenshot400w.png') %> 400w,
+              <%= require('../src/img/Screenshot800w.png') %> 800w
               "
               alt="Home page"
               class="projectImg"
-              sizes="(max-width: 600px)
+              sizes="(max-width: 400px)
             400px, 800px" />
             <div class="projectDescWrapper">
               <h3>Project Name</h3>
