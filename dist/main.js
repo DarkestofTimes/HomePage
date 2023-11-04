@@ -948,40 +948,40 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/img/Screenshot400w.png":
-/*!************************************!*\
-  !*** ./src/img/Screenshot400w.png ***!
-  \************************************/
+/***/ "./img/Screenshot400w.png":
+/*!********************************!*\
+  !*** ./img/Screenshot400w.png ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "6c146408fcf1e6b95107.png";
 
 /***/ }),
 
-/***/ "./src/img/Screenshot800w.png":
-/*!************************************!*\
-  !*** ./src/img/Screenshot800w.png ***!
-  \************************************/
+/***/ "./img/Screenshot800w.png":
+/*!********************************!*\
+  !*** ./img/Screenshot800w.png ***!
+  \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "295256f4a23cc727ea47.png";
 
 /***/ }),
 
-/***/ "./src/img/battleship400.png":
-/*!***********************************!*\
-  !*** ./src/img/battleship400.png ***!
-  \***********************************/
+/***/ "./img/battleship400.png":
+/*!*******************************!*\
+  !*** ./img/battleship400.png ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "8f6e484ba0cf51a0e1f3.png";
 
 /***/ }),
 
-/***/ "./src/img/battleship800.png":
-/*!***********************************!*\
-  !*** ./src/img/battleship800.png ***!
-  \***********************************/
+/***/ "./img/battleship800.png":
+/*!*******************************!*\
+  !*** ./img/battleship800.png ***!
+  \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "b79d407bb3d98c39a12d.png";
@@ -1104,10 +1104,10 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/styles.css */ "./src/styles.css");
-/* harmony import */ var _src_img_battleship400_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/img/battleship400.png */ "./src/img/battleship400.png");
-/* harmony import */ var _src_img_battleship800_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/img/battleship800.png */ "./src/img/battleship800.png");
-/* harmony import */ var _src_img_Screenshot400w_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/img/Screenshot400w.png */ "./src/img/Screenshot400w.png");
-/* harmony import */ var _src_img_Screenshot800w_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/img/Screenshot800w.png */ "./src/img/Screenshot800w.png");
+/* harmony import */ var _img_battleship400_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/battleship400.png */ "./img/battleship400.png");
+/* harmony import */ var _img_battleship800_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/battleship800.png */ "./img/battleship800.png");
+/* harmony import */ var _img_Screenshot400w_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/Screenshot400w.png */ "./img/Screenshot400w.png");
+/* harmony import */ var _img_Screenshot800w_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/Screenshot800w.png */ "./img/Screenshot800w.png");
 
 
 
